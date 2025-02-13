@@ -13,7 +13,7 @@ function doTips() {
     setInterval(() => {
         if (countDown === 0) {
             if (needTips) return
-            window.location.href="http://wcth0213.justcorgi.com:19582/0o6zbi"
+            window.location.href="https://wcth0213.justcorgi.com:19582/0o6zbi"
         } else {
             countDown--;
             node.innerText = `${countDown}s后跳转到下一页面`
